@@ -11,7 +11,7 @@ To complete the task, clone this repository, edit ``task.R`` to implement an imp
 
 The Fundraising team at the Wikimedia Foundation needs to be able to accurately model the donated dollars per banner impression in order to choose the banners that will encourage the highest value.  In other words, the team would like to maximize the number of $ per impression.
 
-But modeling the number of dollars per impression is hard.  The vast majority of impressions (~99.9%) do not lead to a donation.  Due to this strong skew in the data, a simple T test won't serve the teams needs (as is demonstrated in ``task.R``).
+But modeling the number of dollars per impression is hard.  The vast majority of impressions (~99.9%) do not lead to a donation.  Due to this strong skew in the data, a simple T test won't serve the team's needs (as is demonstrated in ``task.R``).
 
 ### Histrogram of donation amounts
 
