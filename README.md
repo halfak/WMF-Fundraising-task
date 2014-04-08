@@ -26,6 +26,5 @@ But modeling the number of dollars per impression is hard.  The vast majority of
 
 ## The Task
 
-
-Your job is to write an improved test.  A skeletion of the function ``my_test()`` is provided in ``task.R``.  You're also provided with ``run_test_suite()``, a function that when provided a set of test functions will simulate sample draws from a population in order to determine when.
+Your job is to write an improved test.  A skeletion of the function ``my_test()`` is provided in ``task.R``.  You're also provided with ``run_test_suite()``, a function that when provided a set of test functions will simulate sample draws from a population and apply your test function.  The test suite will determine how often your 95% confidence intervals correspond to reality and report the results of the test.  
 
