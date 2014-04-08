@@ -13,7 +13,7 @@ The Fundraising team at the Wikimedia Foundation needs to be able to accurately 
 
 But modeling the number of dollars per impression is hard.  The vast majority of impressions (~99.9%) do not lead to a donation.  Due to this strong skew in the data, a simple T test won't serve the teams needs (as is demonstrated in ``task.R``).
 
-### Histrogram of donation amounts
+### Histogram of donation amounts
 
 ![histogram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Fundraising.donations.histogram.svg/500px-Fundraising.donations.histogram.svg.png)
 
