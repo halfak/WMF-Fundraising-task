@@ -46,7 +46,7 @@ results = run_test_suite(
 	list(
 		list(name="t.test", func=mean_t_test) # Add your test to this list. 
 	),
-	iterations=1000, # Number of iterations to perform.  1k good for dev.  Use 10k for final.
-	verbose=T # Prints the results of each iteration. Set to F to reduce terminal noise
+	iterations = 1000, # Number of iterations to perform.  1k good for dev.  Use 10k for final.
+	verbose = TRUE # Prints the results of each iteration. Set to F to reduce terminal noise
 )
 print(results)
