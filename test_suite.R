@@ -1,10 +1,10 @@
 library(data.table)
 
 run_test_suite = function(tests,
-                          observations=100000,
-                          probdonate=0.00089,
-                          iterations=10000,
-                          verbose=F){
+                          observations = 100000,
+                          probdonate = 0.00089,
+                          iterations = 10000,
+                          verbose = FALSE){
 	
 	
 	# Simulate trials
@@ -22,7 +22,7 @@ run_test_suite = function(tests,
 		zeros <- observations - numdonate
 		
 		# sample donation amounts
-		donations <- sample(population.donations, numdonate, replace=TRUE)
+		donations <- sample(population.donations, numdonate, replace = TRUE)
 		
 		# perform test
 		for(test in tests){
@@ -95,6 +95,6 @@ generate_donations = function(n){
 		rep(100, 20)
 	)
 	
-	sample(distribution, n, replace=TRUE)
+	sample(distribution, n, replace = TRUE)
 }
 
