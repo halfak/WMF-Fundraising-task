@@ -26,7 +26,11 @@ scale_x_continuous("Dollar amount", breaks=c(0, unique(donations))) +
 theme_bw()
 
 svg("donation.histogram.log_scaled.svg", height=5, width=7)
-g + scale_y_log10("Donations (log scaled)")
+g + scale_y_log10(
+	"Donations (log scaled)", 
+	breaks=c(10, 100, 1000, 10000, 100000), 
+	labels=c("10", "100", "1000", "10000", "100000")
+)
 dev.off()
 
 svg("donation.histogram.svg", height=5, width=7)
