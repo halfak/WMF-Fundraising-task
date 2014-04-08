@@ -8,14 +8,26 @@ To complete the task, clone this repository, edit ``task.R`` to implement an imp
 
 
 The Problem
-===========
+-----------
 
 The Fundraising team at the Wikimedia Foundation needs to be able to accurately model the donated dollars per banner impression in order to choose the banners that will encourage the highest value.  In other words, the team would like to maximize the number of $ per impression.
 
-But modeling the number of dollars per impression is hard.  The vast majority of impressions (~99.9%) do not lead to a donation.  Due to this strong skew in the data, a simple T test won't serve the teams needs (as is demonstrated in ``task.R``).  
+But modeling the number of dollars per impression is hard.  The vast majority of impressions (~99.9%) do not lead to a donation.  Due to this strong skew in the data, a simple T test won't serve the teams needs (as is demonstrated in ``task.R``).
+
+Histrogram of donation amounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Fundraising.donations.histogram.svg/500px-Fundraising.donations.histogram.svg.png
+   :width: 90%
+   
+
+Histogram (log scaled) of donation amounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Fundraising.donations.histogram.log_scaled.svg/500px-Fundraising.donations.histogram.log_scaled.svg.png
+   :width: 90%
+
 
 The Task
-========
+--------
 
 Your job is to write an improved test.  A skeletion of the function ``my_test()`` is provided in ``task.R``.  You're also provided with ``run_test_suite()``, a function that when provided a set of test functions will simulate sample draws from a population in order to determine when.
 
