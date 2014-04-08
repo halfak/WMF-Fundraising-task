@@ -16,13 +16,13 @@ run_test_suite = function(tests,
 		real_mean = probdonate * mean(population.donations)
 		
 		# how many donations?
-		numdonate <- rbinom(1, observations, probdonate)
+		numdonate = rbinom(1, observations, probdonate)
 		
 		# how many zeros?
-		zeros <- observations - numdonate
+		zeros = observations - numdonate
 		
 		# sample donation amounts
-		donations <- sample(population.donations, numdonate, replace = TRUE)
+		donations = sample(population.donations, numdonate, replace = TRUE)
 		
 		# perform test
 		for(test in tests){
