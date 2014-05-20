@@ -4,7 +4,7 @@ source("test_suite.R")
 # My test function
 # 
 # Write a function that takes a count of the number of non-donating impressions
-# an a vector of donation amounts.  Return a list with three named values:
+# and a vector of donation amounts.  Return a list with three named values:
 # * expected = best guess at the mean, 
 # * upper_95 = upper 95% confidence interval, 
 # * lower_95 = lower 95% confidence interval
@@ -17,7 +17,7 @@ source("test_suite.R")
 #
 #
 # :Return:
-#     A list a values (expected, upper_95, lower_95)
+#     A list of values (expected, upper_95, lower_95)
 #
 my_test = function(zeros, donations){
 	# Implement your test here
