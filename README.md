@@ -3,7 +3,7 @@
 
 This project contains code and instructions for completing the Wikimedia Foundation's task for new Research Scientists.
 
-To complete the task, clone this repository, edit ``task.R`` to implement an improved test function and submit a pull request to this repositiory or email your solution to ahalfaker@wikimedia.org.
+To complete the task, read the following problem description and edit ``task.R`` as needed. Submit your solution to ahalfaker@wikimedia.org.
 
 
 ## The Problem
