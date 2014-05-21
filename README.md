@@ -1,7 +1,7 @@
 # Fundraising Modeling Task
 
 
-This project contains code and instructions for completing the Wikimedia Foundation's task for new Research Analyst.
+This project contains code and instructions for completing the Wikimedia Foundation's task for our open Research Analyst position.
 
 To complete the task, read the following problem description and edit ``task.R`` as needed. Submit your solution to ahalfaker@wikimedia.org.
 
