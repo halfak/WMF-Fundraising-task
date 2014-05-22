@@ -1,9 +1,9 @@
 # Fundraising Modeling Task
 
 
-This project contains code and instructions for completing the Wikimedia Foundation's task for our open Research Analyst position.
+This project contains code and instructions for completing the Wikimedia Foundation's task for the Research Analyst position.
 
-To complete the task, read the following problem description and edit ``task.R`` as needed. Submit your solution to ahalfaker@wikimedia.org.
+To complete the task, read the following problem description and edit ``task.R`` as needed. If you are not familiar with R, you can review ``task.R`` and write its code along with your edits in a programming language of your choice. You have 72 hours to work on this task. Please submit your solution to ahalfaker@wikimedia.org. Alternatively, you can share it with us as a link to a stand-alone repo (not forked from WMF-Fundraising-task).
 
 
 ## The Problem
@@ -12,11 +12,6 @@ To complete the task, read the following problem description and edit ``task.R``
 The Fundraising team at the Wikimedia Foundation needs to be able to accurately model the donated dollars per banner impression in order to choose the banners that will encourage the highest value.  In other words, the team would like to maximize the number of $ per impression.
 
 But modeling the number of dollars per impression is hard.  The vast majority of impressions (~99.9%) do not lead to a donation.  Due to this strong skew in the data, a simple T test will not serve the team's needs (as is demonstrated in ``task.R``).
-
-### Histogram of donation amounts
-
-![histogram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Fundraising.donations.histogram.svg/500px-Fundraising.donations.histogram.svg.png)
-
 
 ### Histogram (log scaled) of donation amounts
 
